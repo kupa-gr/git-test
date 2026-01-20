@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mon Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- En-tête -->
+  <header>
+    <nav>
+      <div class="logo">Portfolio</div>
+      <ul class="nav-links">
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#projets">Projets</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="menu-toggle" id="mobile-menu">
+        ☰
+      </div>
+    </nav>
+  </header>
+
+  <!-- Section Accueil -->
+  <section id="accueil" class="hero">
+    <div class="hero-content">
+      <h1>Bonjour, je suis <span>Alex Dupont</span></h1>
+      <p>Développeur web passionné par les technologies modernes.</p>
+      <a href="#projets" class="btn">Voir mes projets</a>
+    </div>
+  </section>
+
+  <!-- Section Projets -->
+  <section id="projets" class="projects">
+    <h2>Mes Projets</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Application de tâches</h3>
+        <p>Une app React pour gérer vos to-do lists.</p>
+      </div>
+      <div class="project-card">
+        <h3>Site e-commerce</h3>
+        <p>Front-end avec Vue.js et intégration API.</p>
+      </div>
+      <div class="project-card">
+        <h3>Blog personnel</h3>
+        <p>Construit avec HTML, CSS, JS et Firebase.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Contact -->
+  <section id="contact" class="contact">
+    <h2>Contactez-moi</h2>
+    <form id="contact-form">
+      <input type="text" placeholder="Votre nom" required />
+      <input type="email" placeholder="Votre email" required />
+      <textarea placeholder="Votre message" required></textarea>
+      <button type="submit" class="btn">Envoyer</button>
+    </form>
+  </section>
+
+  <!-- Pied de page -->
+  <footer>
+    <p>&copy; 2026 Alex Dupont. Tous droits réservés.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
